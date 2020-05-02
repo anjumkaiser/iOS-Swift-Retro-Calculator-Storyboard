@@ -13,6 +13,7 @@
 		CD01A226245AC142005BFFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD01A224245AC142005BFFA1 /* Main.storyboard */; };
 		CD01A228245AC14B005BFFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD01A227245AC14B005BFFA1 /* Assets.xcassets */; };
 		CD01A22B245AC14B005BFFA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD01A229245AC14B005BFFA1 /* LaunchScreen.storyboard */; };
+		CD2F4200245E24E000F8CE60 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD2F41FF245E24E000F8CE60 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD01A227245AC14B005BFFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD01A22A245AC14B005BFFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD01A22C245AC14B005BFFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2F41FF245E24E000F8CE60 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CD01A21D245AC142005BFFA1 /* Retro Calculator Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				CD2F41FF245E24E000F8CE60 /* Minecraft.ttf */,
 				CD01A21E245AC142005BFFA1 /* AppDelegate.swift */,
 				CD01A220245AC142005BFFA1 /* SceneDelegate.swift */,
 				CD01A222245AC142005BFFA1 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				CD01A22B245AC14B005BFFA1 /* LaunchScreen.storyboard in Resources */,
 				CD01A228245AC14B005BFFA1 /* Assets.xcassets in Resources */,
+				CD2F4200245E24E000F8CE60 /* Minecraft.ttf in Resources */,
 				CD01A226245AC142005BFFA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
