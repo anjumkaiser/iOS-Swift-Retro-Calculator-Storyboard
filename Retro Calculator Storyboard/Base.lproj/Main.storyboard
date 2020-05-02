@@ -65,6 +65,9 @@
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yyU-lq-XE9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOG-dX-xxI">
                                                 <rect key="frame" x="88" y="0.0" width="70" height="70"/>
@@ -77,6 +80,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aWb-g0-3PI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLb-t0-0cw">
                                                 <rect key="frame" x="176" y="0.0" width="70" height="70"/>
@@ -89,6 +95,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zf3-R5-TcK"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -107,6 +116,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zx8-aX-fYH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTu-rH-SvI">
                                                 <rect key="frame" x="88" y="0.0" width="70" height="70"/>
@@ -119,6 +131,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uae-Jh-hGf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTb-0Y-SNf">
                                                 <rect key="frame" x="176" y="0.0" width="70" height="70"/>
@@ -131,6 +146,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGH-ff-ONQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="2Yq-AA-vT2"/>
@@ -150,6 +168,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2en-jT-gy5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8a-BQ-B1d">
                                                 <rect key="frame" x="88" y="0.0" width="70" height="70"/>
@@ -162,6 +183,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VSm-iI-jya"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SfO-Lv-X17">
                                                 <rect key="frame" x="176" y="0.0" width="70" height="70"/>
@@ -174,6 +198,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fLv-wd-kNy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="D4K-PS-wJ4"/>
@@ -193,6 +220,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5YV-f9-5Lx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHK-bB-GHQ">
                                                 <rect key="frame" x="88" y="0.0" width="70" height="70"/>
