@@ -37,8 +37,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="6up-60-Drr">
                                 <rect key="frame" x="20" y="138" width="374" height="676"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2aW-bh-DZn">
-                                <rect key="frame" x="79" y="173" width="246" height="366"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="uxQ-he-rfz">
+                                <rect key="frame" x="0.0" y="824" width="414" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="EHQ-BT-qkj"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2aW-bh-DZn">
+                                <rect key="frame" x="84" y="265" width="246" height="366"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="sQ5-8T-GtL">
                                         <rect key="frame" x="0.0" y="0.0" width="246" height="70"/>
@@ -255,12 +261,6 @@ CA
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="uxQ-he-rfz">
-                                <rect key="frame" x="0.0" y="824" width="414" height="72"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="EHQ-BT-qkj"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -271,6 +271,8 @@ CA
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VPE-G1-dej" secondAttribute="trailing" constant="20" id="Dif-2v-foj"/>
                             <constraint firstItem="Ocd-1f-wur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="LAM-vh-i1r"/>
                             <constraint firstAttribute="bottom" secondItem="uxQ-he-rfz" secondAttribute="bottom" id="Pwc-Bl-dn7"/>
+                            <constraint firstItem="2aW-bh-DZn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QWn-Pq-rg3"/>
+                            <constraint firstItem="2aW-bh-DZn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SC8-5F-T20"/>
                             <constraint firstItem="Ocd-1f-wur" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="VOP-Wa-E0I"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ocd-1f-wur" secondAttribute="trailing" constant="39" id="Vmo-YH-x2D"/>
                             <constraint firstItem="VPE-G1-dej" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="f5T-iF-zK6"/>
