@@ -31,14 +31,23 @@
                                     <constraint firstAttribute="height" constant="128" id="o49-52-4Fn"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="p92-Ma-7NQ">
+                                <rect key="frame" x="0.0" y="768" width="414" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="GKM-Nv-Cc4"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1b1-ri-846" secondAttribute="trailing" constant="87" id="905-dR-7mH"/>
+                            <constraint firstItem="p92-Ma-7NQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9SA-ZO-Jhm"/>
                             <constraint firstItem="eFD-7B-aME" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="BVN-tW-Nv6"/>
                             <constraint firstItem="1b1-ri-846" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="139" id="C6G-Nk-pHl"/>
                             <constraint firstItem="1b1-ri-846" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="Dcx-BB-vmm"/>
+                            <constraint firstAttribute="bottom" secondItem="p92-Ma-7NQ" secondAttribute="bottom" id="ZMF-HN-x2s"/>
                             <constraint firstItem="eFD-7B-aME" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="ey0-iS-FAQ"/>
+                            <constraint firstItem="p92-Ma-7NQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mTe-ch-Gu1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eFD-7B-aME" secondAttribute="trailing" constant="87" id="qkN-OJ-ljl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -52,6 +61,7 @@
     <resources>
         <image name="Retro-Calc" width="755" height="111"/>
         <image name="launchbg" width="1433" height="957"/>
+        <image name="launchground" width="999" height="225"/>
         <image name="robot" width="786" height="402"/>
     </resources>
 </document>
