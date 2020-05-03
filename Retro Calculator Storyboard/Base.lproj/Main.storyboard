@@ -235,6 +235,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onDividePressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5hV-Yh-6EW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TU-3U-euA">
                                                 <rect key="frame" x="176" y="0.0" width="70" height="70"/>
@@ -247,6 +250,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onMultiplyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PWE-hH-UW3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="rwb-b8-1HO"/>
@@ -266,6 +272,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onSubtractPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Kp-7Z-UPh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYw-cr-OzJ">
                                                 <rect key="frame" x="88" y="0.0" width="70" height="70"/>
@@ -278,6 +287,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onAddPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g01-JK-SXE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4i-6C-bJ3">
                                                 <rect key="frame" x="176" y="0.0" width="70" height="70"/>
@@ -290,6 +302,9 @@ CA
 CA
 </string>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onEqualPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W9O-xZ-jdE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="jNf-4F-YyB"/>
